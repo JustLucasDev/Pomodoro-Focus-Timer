@@ -132,3 +132,8 @@ h1 {
   }
 }
 
+audio {
+  margin-top: 25px;
+  width: 80%;
+  opacity: 0.5;
+}
