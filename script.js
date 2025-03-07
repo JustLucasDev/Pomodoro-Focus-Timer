@@ -78,7 +78,7 @@ function startTimer(timerDisplay) {
       if (minutes === 0) {
         clearInterval(myInterval);
         timerDisplay.querySelector(".time").textContent = "00:00";
-        const alarm = new Audio("audio/gta_4_mission_pass.mp3");
+        const alarm = new Audio("audio/wallace.mp3");
         alarm.play();
         return;
       }

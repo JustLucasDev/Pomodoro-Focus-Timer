@@ -1,13 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Orbitron", sans-serif;
 }
 
 body {
+  background-image: url(img/tiago-calliari-anyone.jpg);
+  
+  background-size: cover; 
+  background-position: right;
+  background-repeat: no-repeat;
+  
+  
   background-color: #1e213f;
   color: #d7e0ff;
   display: flex;
@@ -37,41 +44,22 @@ main {
   margin: 0 auto;
   margin-bottom: 2rem;
   position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
+
 
 h1 {
   font-size: 2rem;
   margin: 20px auto;
 }
 
+
 .button-container {
   margin-top: 20px;
   display: flex;
   justify-content: center;
-}
-
-.pomodoro {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  position: relative;
-  margin: 2.5rem 0;
-  text-align: center;
-  border-radius: 50%;
-  background: #151932;
-  box-shadow: 20px 20px 42px #0e2021, -20px -20px 42px #1c2244;
-}
-
-.pomodoro::before {
-  content: "";
-  position: absolute;
-  border: 10px solid royalblue;
-  border-radius: 50%;
-  width: 22rem;
-  height: 22rem;
 }
 
 .time {
